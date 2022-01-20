@@ -9,10 +9,14 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1DAjqHlKcNxcwfzzeihqTiCQ55MSFO7WZ'
-export_file_name = 'export.pkl'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1DAjqHlKcNxcwfzzeihqTiCQ55MSFO7WZ'
+#export_file_name = 'export.pkl'
+#diabetic retinopathy
+export_file_url = 'https://drive.google.com/uc?export=download&id=12Z3Sj8Z9diQIHdDU9Nyq6cCmNP3YoMyI'
+export_file_name = 'eye-images-11-3.pth'
 
-classes = ['black', 'grizzly', 'teddy']
+#classes = ['black', 'grizzly', 'teddy']
+classes = [1,2,3,4,5]
 path = Path(__file__).parent
 
 app = Starlette()
