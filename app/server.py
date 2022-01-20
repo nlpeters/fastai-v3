@@ -14,6 +14,8 @@ export_file_name = 'export.pkl'
 #diabetic retinopathy
 #export_file_url = 'https://drive.google.com/uc?export=download&id=12Z3Sj8Z9diQIHdDU9Nyq6cCmNP3YoMyI'
 #export_file_name = 'eye-images-11-3.pth'
+#export_file_url = 'https://drive.google.com/uc?export=download&id=1Hudxx4b09K7MVQvj8cxpKgtatsNeGBlf'
+#export_file_name = 'export.pkl'
 
 classes = ['black', 'grizzly', 'teddy']
 #classes = [1,2,3,4]
