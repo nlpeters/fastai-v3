@@ -16,7 +16,7 @@ export_file_url = 'https://drive.google.com/uc?export=download&id=12Z3Sj8Z9diQIH
 export_file_name = 'eye-images-11-3.pth'
 
 #classes = ['black', 'grizzly', 'teddy']
-classes = [1,2,3,4,5]
+classes = [1,2,3,4]
 path = Path(__file__).parent
 
 app = Starlette()
